@@ -1,0 +1,34 @@
+.weatherContainer {
+    background: linear-gradient(to bottom, #8CB5E1, #B5A0D5, #AFC58F);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.currentWeather {
+    font-size: 1.5rem;
+}
+
+.currentWeather img {
+    width: 100px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.forecastDay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecastDay img {
+    width: 50px;
+}
