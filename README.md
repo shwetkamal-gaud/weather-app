@@ -1,3 +1,27 @@
+# Installation 
+```bash
+git clone https://github.com/shwetkamal-gaud/weather-app.git
+```
+## Go To The Directory
+```bash
+cd weather-app
+```
+## intall the dependencies
+```bash
+npm install
+or
+npm i
+```
+## Run The Development Server
+```bash
+npm run dev
+```
+ # Usage
+ Enter a city name it will show you wether details and 5 days forcats information.
+ If api calls reaches its limit of an hour then it will show en error of 401 Invalid API
+
+ ## Thank you for considering my application. I am eager to contribute to your development team and further enhance my skills by collaborating with the experienced members of your team.  I look forward to hearing from you.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
