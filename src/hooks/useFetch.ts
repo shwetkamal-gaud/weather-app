@@ -4,7 +4,7 @@ const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 const fetchWeatherData = async ({ queryKey }: { queryKey: string }) => {
     const weatherResponse = await fetch(
-        `http://pro.openweathermap.org/data/2.5/weather?q=${queryKey}&appid=${API_KEY}&units=metric`
+        `http://api.openweathermap.org/data/2.5/weather?q=${queryKey}&appid=${API_KEY}&units=metric`
     );
 
     if (!weatherResponse.ok) {
@@ -20,7 +20,7 @@ const fetchWeatherData = async ({ queryKey }: { queryKey: string }) => {
     const weatherData = await weatherResponse.json();
 
     const forecastResponse = await fetch(
-        `http://pro.openweathermap.org/data/2.5/forecast?q=${queryKey}&appid=${API_KEY}&units=metric`
+        `http://api.openweathermap.org/data/2.5/forecast?q=${queryKey}&appid=${API_KEY}&units=metric`
     );
 
     if (!forecastResponse.ok) {
