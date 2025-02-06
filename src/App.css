@@ -1,14 +1,15 @@
 #root {
   min-width: 100vw;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
-.weather{
-  padding: 1rem;
-  width: 100vw;
+
+.weather {
+  padding: 1rem 2rem;
+
 }
