@@ -17,8 +17,8 @@ npm i
 npm run dev
 ```
  # Usage
- Enter a city name it will show you wether details and 5 days forcats information.
- If api calls reaches its limit of an hour then it will show en error of 401 Invalid API
+ Enter a city name it will show you weather details and 5 days forecats information.
+ If api calls reaches its limit of an hour then it will show en error of 401 Invalid API or user enters wrong nameof city then thats shows Not Found 404
 
  ## Thank you for considering my application. I am eager to contribute to your development team and further enhance my skills by collaborating with the experienced members of your team.  I look forward to hearing from you.
 
