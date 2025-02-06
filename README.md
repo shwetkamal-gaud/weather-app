@@ -6,7 +6,7 @@ git clone https://github.com/shwetkamal-gaud/weather-app.git
 ```bash
 cd weather-app
 ```
-## intall the dependencies
+## Install the dependencies
 ```bash
 npm install
 or
